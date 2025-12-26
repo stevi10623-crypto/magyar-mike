@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Book Magyar Mike – Satirical Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sanchez&display=swap" rel="stylesheet">
+  <style>
+    :root{--gold:#D4AF37;--burg:#7B0A0A;--tan:#C88E5B;--blk:#111}
+    body{font-family:'Sanchez',serif;background:var(--blk);color:#fff;padding:2rem}
+    h1{font-family:'Bebas Neue',cursive;text-align:center;color:var(--gold)}
+    form{max-width:600px;margin:2rem auto;background:#222;padding:2rem;border:2px solid var(--gold);border-radius:8px}
+    label{display:block;margin:1rem 0 .3rem;font-weight:bold}
+    input,select,textarea{width:100%;padding:.7rem;border:1px solid var(--tan);border-radius:4px;background:#111;color:#fff}
+    button{background:var(--gold);color:var(--blk);border:none;padding:1rem 2rem;font-size:1.2rem;font-weight:bold;border-radius:4px;cursor:pointer}
+    .center{text-align:center;margin-top:1.5rem}
+  </style>
+</head>
+<body>
+  <h1>Booking Request (Satire Only)</h1>
+  <form action="https://formspree.io/f/your-id-here" method="POST">
+    <label>Alias / Stage Name *</label>
+    <input type="text" name="alias" required>
+
+    <label>Desired Package</label>
+    <select name="package">
+      <option>Goulash Special – 69 €</option>
+      <option>Danube Overnight – 420 €</option>
+      <option>Eurovision Weekender – 1 337 €</option>
+      <option>Custom Absurdity (explain below)</option>
+    </select>
+
+    <label>Preferred Date</label>
+    <input type="date" name="date">
+
+    <label>Special Requests (accordions, paprika levels, safe-word, etc.)</label>
+    <textarea name="requests" rows="4"></textarea>
+
+    <label>Email for Confirmation (will never be used because this is fake)</label>
+    <input type="email" name="email">
+
+    <div class="center">
+      <button type="submit">Send to Void</button>
+    </div>
+  </form>
+  <p style="text-align:center;margin-top:2rem;font-size:.8rem">This form goes nowhere. It’s satire. Relax.</p>
+</body>
+</html>

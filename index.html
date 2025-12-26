@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Magyar Mike – Hungary’s #1 Export Since Paprika</title>
+  <meta name="description" content="Official pleasure portal of Magyar Mike, the giggalo Budapest forgot to lock up. 100 % SATIRE.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sanchez&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --gold:#D4AF37;
+      --burg:#7B0A0A;
+      --tan:#C88E5B;
+      --blk:#111;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Sanchez',serif;background:url("assets/pattern-bg.png"),var(--blk);color:#fff;line-height:1.5}
+    h1,h2,h3{font-family:'Bebas Neue',cursive;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
+    header{text-align:center;padding:3rem 1rem;background:linear-gradient(180deg,var(--burg) 0%,#000 100%)}
+    header img{width:200px;border-radius:50%;border:5px solid var(--gold)}
+    nav{margin:2rem 0}
+    nav a{display:inline-block;margin:.5rem 1rem;padding:.7rem 1.5rem;background:var(--gold);color:var(--blk);text-decoration:none;font-weight:bold;border-radius:4px;transition:.3s}
+    nav a:hover{background:#fff}
+    section{max-width:900px;margin:0 auto;padding:2rem 1rem}
+    .hero{font-size:1.3rem;text-align:center;margin-bottom:2rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem}
+    .card{background:#222;border:2px solid var(--gold);padding:1.5rem;border-radius:8px;text-align:center}
+    .price{font-size:2rem;color:var(--gold)}
+    footer{text-align:center;padding:2rem;font-size:.8rem;color:#999}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/mike-stache.jpg" alt="Magyar Mike glorious mustache">
+    <h1>Magyar Mike</h1>
+    <p>Hungary’s #1 Export Since Paprika™</p>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#trophy">Trophy Wall</a>
+      <a href="#reviews">Reviews</a>
+      <a href="booking.html">Book Now</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Need a plus-one, a minus-one, or a “why-is-the-couch-still-spinning”-one?</h2>
+    <p>Mike has 17 years of international experience, 3 questionable passports, and a mustache insured for 12 000 HUF.  
+    <strong>100 % SATIRE — NOT AN ACTUAL ESCORT SITE.</strong></p>
+  </section>
+
+  <section id="services">
+    <h2>Package Deals</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>The Goulash Special</h3>
+        <p>One hour of heavy eye-contact and mild paprika-based role-play.</p>
+        <p class="price">69 €</p>
+      </div>
+      <div class="card">
+        <h3>Danube Overnight</h3>
+        <p>Midnight river cruise, two energy drinks, and a story you’ll never tell your therapist.</p>
+        <p class="price">420 €</p>
+      </div>
+      <div class="card">
+        <h3>Full Eurovision Weekender</h3>
+        <p>Three days, unlimited sequins, zero accountability.</p>
+        <p class="price">1 337 €</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="trophy">
+    <h2>Trophy Wall</h2>
+    <ul style="list-style:none;padding-left:0">
+      <li>🏆 2018 “Best Supporting Mustache” – Budapest Adult Film Awards</li>
+      <li>🏆 2019 “Most Dramatic Exit” – Prague Swingers Potluck</li>
+      <li>🏆 2021 “Audience Choice: Loudest Safeword” – Vienna Kink Fest</li>
+    </ul>
+  </section>
+
+  <section id="reviews">
+    <h2>Client* Reviews</h2>
+    <blockquote>“He fixed my Wi-Fi and left.”<br>– Helga, 38, Innsbruck</blockquote>
+    <blockquote>“I asked for tantric, got Tinder tips. 5 stars.”<br>– Klaus, 52, Berlin</blockquote>
+    <blockquote>“Still not sure how the accordion got involved.”<br>– The Entire City Council of Bratislava</blockquote>
+    <p style="font-size:.7rem">*Actors. Not real. Obviously.</p>
+  </section>
+
+  <footer>
+    <p>© <span id="yr"></span> Magyar Mike Satire Enterprises | Not a real service | <a href="booking.html" style="color:var(--gold)">Booking Form</a></p>
+  </footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+</body>
+</html>
